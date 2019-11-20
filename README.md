@@ -31,8 +31,7 @@ elements. In the case of this lab assignment, the data.txt file contains 8 eleme
 this function should create 8 disjoint sets with one element each. Each element’s value 
 EECS 560 Lab 11 – Implementation of Disjoint Sets and Graphs
 Prof.: Dr.Shontz, GTAs: Chiranjeevi Pippalla, Anubhav Ghosh
-will be equal to its pointer array index. Consider Fig. 1 which shows a disjoint set of size
-8. The values of each disjoint set should be read from data.txt.
+will be equal to its pointer array index. Consider Fig. 1 which shows a disjoint set of size 8. The values of each disjoint set should be read from data.txt.
 - Union(X,Y) - Merges the disjoint set which contains the element X and the disjoint set
 which contains Y into a single set by using the union by rank heuristic. For example,
 refer to Figures 2 through 7. Every time this function is called on two disjoint sets, print
